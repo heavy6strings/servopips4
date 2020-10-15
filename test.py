@@ -23,7 +23,7 @@ duty = 2
 # Loop for duty values from 2 to 12 (0 to 180 degrees)
 while duty <= 12:
     servo1.ChangeDutyCycle(duty)
-    time.sleep(1)
+    time.sleep(0.1)
     duty = duty + 0.1
 
 # Wait a couple of seconds
