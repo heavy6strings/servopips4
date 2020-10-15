@@ -24,7 +24,7 @@ duty = 2
 while duty <= 12:
     servo1.ChangeDutyCycle(duty)
     time.sleep(0.01)
-    print (duty)
+    print (duty,end="",flush=True)
     duty = duty + 0.01
 
 # Wait a couple of seconds
@@ -44,5 +44,5 @@ servo1.ChangeDutyCycle(0)
 #Clean things up at the end
 servo1.stop()
 GPIO.cleanup()
-print ("Goodbye")
+print ("Jesus is the way")
 
