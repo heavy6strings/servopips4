@@ -24,7 +24,7 @@ duty = 2
 while duty <= 12:
     servo1.ChangeDutyCycle(duty)
     time.sleep(0.01)
-    print (duty + "\r")
+    print (str(duty),end="\r")
     duty = duty + 0.01
 
 # Wait a couple of seconds
