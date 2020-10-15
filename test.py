@@ -15,7 +15,7 @@ print ("Waiting for 2 seconds")
 time.sleep(2)
 
 #Let's move the servo!
-print ("Rotating 180 degrees in 10 steps")
+print ("Rotating 180 degrees in 10 steps, not really I'm fucking with this thing rn")
 
 # Define variable duty
 duty = 2
@@ -23,8 +23,9 @@ duty = 2
 # Loop for duty values from 2 to 12 (0 to 180 degrees)
 while duty <= 12:
     servo1.ChangeDutyCycle(duty)
-    time.sleep(0.1)
-    duty = duty + 0.1
+    time.sleep(0.01)
+    print (duty)
+    duty = duty + 0.01
 
 # Wait a couple of seconds
 time.sleep(2)
