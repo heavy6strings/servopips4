@@ -1,4 +1,4 @@
- Import libraries
+#Import libraries
 import RPi.GPIO as GPIO
 import time
 
