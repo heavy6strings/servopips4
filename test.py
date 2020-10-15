@@ -24,7 +24,7 @@ duty = 2
 while duty <= 12:
     servo1.ChangeDutyCycle(duty)
     time.sleep(1)
-    duty = duty + 1
+    duty = duty + 0.1
 
 # Wait a couple of seconds
 time.sleep(2)
